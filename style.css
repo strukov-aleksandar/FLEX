@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;  
+  }
+body {
+    font-family: 'Montserrat Alternates';
+    margin: 0;
+    padding: 0;
+    
+}
+.wrapper {
+    padding: 50px 0;
+    background: url('fon.jpg') 50%/cover no-repeat ;
+}
+.conteiner {
+    max-width: 1200px;
+    padding: 10px;
+    background: url('fon.jpg') 50%/cover no-repeat fixed ;
+    color: gainsboro;
+    text-align: center;
+    margin: 0 auto;
+}
+.conteiner > h1, .conteiner > h3 {
+    background-color: rgba(0, 0, 0, .6);
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+.conteiner > h1 {
+    margin: 0 auto 15px;
+}
+.photo {
+    max-width: 600px;
+    height: 400px;
+    background: url('Voronezh.jpg') 50%/cover no-repeat;
+    border: 5px solid rgba(0, 0, 0, .6);
+    margin: 0 auto;
+}
+.karta{
+    margin: 30px auto;
+    max-width: 800px;
+   display: flex; 
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.karta_photo {
+   width: 400px;
+   height: 300px;
+   background: url('map.jpg') 50%/cover no-repeat;
+   margin: 0 10px 0 0; 
+}
+.karta_text {
+    width: 390px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 1rem;  
+}
+.karta_text > p {
+    margin: 0px;
+}
+.look {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.look_photo_1 {
+    width: 350px;
+    height: 250px;
+    background: url('amg\ 1.jpg')50%/cover no-repeat;
+    margin: 10px;
+}
+.look_photo_2 {
+    width: 350px;
+    height: 250px;
+    background: url('amg\ 2.jpg')50%/cover no-repeat;
+    margin: 10px;
+}
+.look_photo_3 {
+    width: 350px;
+    height: 250px;
+    background: url('amg\ 3.jpg')50%/cover no-repeat;
+    margin: 10px;
+}.look_photo_4 {
+    width: 350px;
+    height: 250px;
+    background: url('amg\ 4.jpg')50%/cover no-repeat;
+    margin: 10px;
+}.look_photo_5 {
+    width: 350px;
+    height: 250px;
+    background: url('amg\ 5.jpg')50%/cover no-repeat;
+    margin: 10px;
+}
+.look_photo_6 {
+    width: 350px;
+    height: 250px;
+    background: url('amg\ 6.jpg')50%/cover no-repeat;
+    margin: 10px;
+}
+.button {
+    width: 200px;
+    height: 35px;
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+    line-height: 35px;
+}
+/* для наведения курсора */
+.button:hover { 
+    cursor: pointer;
+    opacity: .7;
+} 
